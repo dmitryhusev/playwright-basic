@@ -4,6 +4,7 @@ venv
 .idea
 .vscode
 *.log
+*.xml
 test-results
 allure-results
 allure-report
