@@ -5,6 +5,7 @@ venv
 .vscode
 *.log
 *.xml
+*.html
 test-results
 allure-results
 allure-report
