@@ -2,8 +2,7 @@
 
 def test_main(browser):
     browser.page.goto('https://alib.com.ua')
-    assert 'Alib' in browser.page.title()
-    print(browser.page.title())
+    assert 'Alib1' in browser.page.title()
 
 
 def test_search(browser):
