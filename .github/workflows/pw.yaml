@@ -26,7 +26,9 @@ jobs:
         # env:
         #   HOME: /root
       - name: Publish Test Report
-        uses: EnricoMi/publish-unit-test-result-action@v2
+        uses: phoenix-actions/test-reporting@v8
+        id: test-report
         if: always()
         with:
-            files: report.xml
+            name: report
+            path: report.xml
