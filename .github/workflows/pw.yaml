@@ -26,9 +26,8 @@ jobs:
         # env:
         #   HOME: /root
       - name: Publish Test Report
-        uses: phoenix-actions/test-reporting@v8
-        id: test-report
         if: always()
+        uses: pmeier/pytest-results-action@main
         with:
-            name: report
             path: report.xml
+            summary: true
