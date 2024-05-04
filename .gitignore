@@ -6,6 +6,7 @@ venv
 *.log
 *.xml
 *.html
+*.zip
 test-results
 allure-results
 allure-report
